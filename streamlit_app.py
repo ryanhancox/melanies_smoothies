@@ -22,7 +22,7 @@ my_df = connection.table("smoothies.public.fruit_options")\
 # st.dataframe(data=my_df, use_container_width=True)
 # st.stop()
 
-pd_df = my_dataframe.to_pandas()
+pd_df = my_df.to_pandas()
 # st.dataframe(pd_df)
 # st.stop()
 
